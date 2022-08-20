@@ -30,9 +30,15 @@
 
             //UC5
             Console.WriteLine("-------------------------");
-            Console.WriteLine("Enter The Phone_Number: ");
+            Console.WriteLine("Enter The Password: ");
             string password = Console.ReadLine();
             person.Validate_Password_RuleOne(password);
+
+            //UC6
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Enter The Password: ");
+            string passwordTwo = Console.ReadLine();
+            person.Validate_Password_RuleOne(passwordTwo);
         }
     }
 }
